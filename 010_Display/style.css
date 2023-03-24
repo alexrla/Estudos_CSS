@@ -1,0 +1,49 @@
+.item-block {
+  background-color: #FF0000;
+
+  /* 
+    - Sem a propriedade display: block; as propriedades height
+    e width não surtiriam efeito;
+  */
+  display: block;
+
+  height: 100px;
+
+  margin: 20px;
+
+  width: 100px;
+}
+
+.item-inline {
+  background-color: #00FF00;
+
+  /* 
+    - Devido a propriedade display: inline; as propriedades height
+    e width não surtiram efeito;
+  */
+  display: inline;
+
+  height: 100px;
+
+  margin: 20px;
+
+  width: 100px;
+}
+
+.item-inline-block {
+  background-color: #0000FF;
+
+  /* 
+    - Devido a propriedade display: inline-block; as propriedades height
+    e width surtiram efeito (comportamento de elemento do tipo block, além
+    de ficarem um do lado do outro (só ocupam o espaço necessário - comportamento
+    de elemento do tipo inline);
+  */
+  display: inline-block;
+
+  height: 100px;
+
+  margin: 20px;
+
+  width: 100px;
+}

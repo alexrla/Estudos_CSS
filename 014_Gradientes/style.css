@@ -1,0 +1,113 @@
+.gradient {
+  height: 300px;
+
+  margin-bottom: 20px;
+
+  width: 500px;
+}
+
+/* Gradientes Lineares */
+/* Padrão - cima para baixo */
+#gradient-1 {
+  background-image: linear-gradient(#FF0000, #00FF00, #0000FF);
+}
+
+/* Esquerda para direita */
+#gradient-2 {
+  background-image: linear-gradient(to right, #FF0000, #00FF00, #0000FF);
+}
+
+/* Diagonal */
+#gradient-3 {
+  background-image: linear-gradient(to bottom right, #FF0000, #00FF00, #0000FF);
+}
+
+#gradient-4 {
+  background-image: linear-gradient(to bottom left, #FF0000, #00FF00, #0000FF);
+}
+#gradient-5 {
+  background-image: linear-gradient(to top right, #FF0000, #00FF00, #0000FF);
+}
+
+#gradient-6 {
+  background-image: linear-gradient(to top left, #FF0000, #00FF00, #0000FF);
+}
+
+/* Com ângulos */
+/* Equivalente a to top */
+#gradient-7 {
+  background-image: linear-gradient(0deg, #FF0000, #00FF00, #0000FF);
+}
+#gradient-8 {
+  background-image: linear-gradient(45deg, #FF0000, #00FF00, #0000FF);
+}
+/* Equivalente a to right */
+#gradient-9 {
+  background-image: linear-gradient(90deg, #FF0000, #00FF00, #0000FF);
+}
+/* Equivalente a to bottom */
+#gradient-10 {
+  background-image: linear-gradient(180deg, #FF0000, #00FF00, #0000FF);
+}
+
+/* Arco-íris */
+#gradient-11 {
+  background-image: linear-gradient(45deg, #FF0000,#FFA500,#FFFF00,#008000,#0000FF,#4B0082,#EE82EE);
+}
+
+/* Gradientes Radiais */
+#gradient-11 {
+  background-image: radial-gradient(#FF0000,#00FF00,#0000FF);
+}
+
+#gradient-12 {
+  background-image: radial-gradient(#FF0000 10%,#00FF00 20%,#0000FF 50%);
+}
+
+#gradient-13 {
+  background-image: radial-gradient(circle, #FF0000,#00FF00,#0000FF);
+}
+
+#gradient-14 {
+  background-image: repeating-radial-gradient(#FF0000,#00FF00 20%,#0000FF 40%);
+}
+
+/* Gradientes Cônicos */
+#gradient-15 {
+  background-image: conic-gradient(#FF0000,#00FF00,#0000FF);
+}
+
+#gradient-16 {
+  background-image: conic-gradient(#FF0000,#00FF00,#0000FF, #FFFF00);
+
+  border-radius: 50%;
+
+  height: 200px;
+
+  width: 200px;
+}
+
+#gradient-17 {
+  background-image: conic-gradient(
+    #FF0000 0deg,#FF0000 90deg,
+    #00FF00 90deg, #00FF00 180deg,
+    #0000FF 180deg, #0000FF 270deg,
+    #FFFF00 270deg, #FFFF00 360deg
+  );
+
+  border-radius: 50%;
+
+  height: 200px;
+
+  width: 200px;
+}
+
+#gradient-18 {
+  background-image: repeating-conic-gradient(#FF0000 10%,#00FF00 15%,#0000FF 30%);
+  
+  border-radius: 50%;
+
+  height: 200px;
+
+  width: 200px;
+}

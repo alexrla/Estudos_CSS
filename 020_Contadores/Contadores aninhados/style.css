@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+
+  margin: 0;
+
+  padding: 0;
+}
+
+body {
+  align-items: center;
+
+  background-color: #333;
+
+  color: #FFF;
+
+  counter-reset: language;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 15px;
+
+  height: 100vh;
+
+  justify-content: center;
+}
+
+h1 {
+  counter-reset: framework;
+}
+
+h1::before {
+  content: counter(language)". Linguagem ";
+
+  counter-increment: language;
+}
+
+h2::before {
+  content: counter(language) "." counter(framework) ". ";
+
+  counter-increment: framework;
+}

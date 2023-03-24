@@ -1,0 +1,148 @@
+.container {
+  align-items: center;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  margin: 40px auto;
+
+  width: 90%;
+}
+
+ul li,
+ol li {
+  font-size: 24px;
+
+  margin-right: 50px;
+}
+
+.unordered-list-disc {
+  list-style-type: disc; /* Padrão */
+}
+
+.unordered-list-circle {
+  list-style-type: circle;
+}
+
+.unordered-list-square {
+  list-style-type: square;
+}
+
+.unordered-list-none {
+  list-style-type: none;
+}
+
+.ordered-list-armenian {
+  list-style-type: armenian;
+}
+
+.ordered-list-cjk-ideographic {
+  list-style-type: cjk-ideographic;
+}
+
+.ordered-list-decimal {
+  list-style-type: decimal; /* Padrão */
+}
+
+.ordered-list-decimal-leading-zero {
+  list-style-type: decimal-leading-zero;
+}
+
+.ordered-list-georgian {
+  list-style-type: georgian;
+}
+
+.ordered-list-hebrew {
+  list-style-type: hebrew;
+}
+
+.ordered-list-hiragana {
+  list-style-type: hiragana;
+}
+
+.ordered-list-hiragana-iroha {
+  list-style-type: hiragana-iroha;
+}
+
+.ordered-list-katakana {
+  list-style-type: katakana;
+}
+
+.ordered-list-katakana-iroha {
+  list-style-type: katakana-iroha;
+}
+
+.ordered-list-lower-alpha {
+  list-style-type: lower-alpha;
+}
+
+.ordered-list-lower-greek {
+  list-style-type: lower-greek;
+}
+
+.ordered-list-lower-latin {
+  list-style-type: lower-latin;
+}
+
+.ordered-list-lower-roman {
+  list-style-type: lower-roman;
+}
+
+.ordered-list-upper-alpha {
+  list-style-type: upper-alpha;
+}
+
+.ordered-list-upper-greek {
+  list-style-type: upper-greek;
+}
+
+.ordered-list-upper-latin {
+  list-style-type: upper-latin;
+}
+
+.ordered-list-upper-roman {
+  list-style-type: upper-roman;
+}
+
+.ordered-list-none {
+  list-style-type: none;
+}
+
+.position-outside {
+  list-style-position: outside;
+}
+
+.position-outside li {
+  border: 2px solid #000;
+
+  color: #0000FF;
+
+  padding: 10px;
+}
+
+.position-inside {
+  list-style-position: inside;
+}
+
+.position-inside li {
+  border: 2px solid #000;
+
+  color: #FF0000;
+
+  padding: 10px;
+}
+
+.facebook {
+  list-style-image: url("./imgs/facebook.png");
+}
+
+.instagram {
+  list-style-image: url("./imgs/instagram.png");
+}
+
+.whatsapp {
+  list-style-image: url("./imgs/whatsapp.png");
+}

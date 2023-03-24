@@ -1,0 +1,48 @@
+/*
+  - Regras necessárias:
+    1. white-space: nowrap;
+    2. overflow: hidden;
+*/
+
+.container {
+  border: 2px solid #333;
+
+  cursor: pointer;
+
+  margin: 20px;
+
+  width: 100px;
+}
+
+#p-1 {
+  overflow: hidden;
+
+  text-overflow: clip;
+
+  white-space: nowrap;
+}
+
+#p-2 {
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  white-space: nowrap;
+}
+
+.container {
+  transition: 1s;
+}
+
+.container:hover {
+  padding: 20px;
+
+  text-align: justify;
+
+  width: 200px;
+}
+
+.container:hover #p-1,
+.container:hover #p-2 {
+  white-space: normal;
+}

@@ -1,0 +1,35 @@
+#box {
+  background-color: #333;
+
+  margin: 0 auto;
+
+  padding: 20px;
+
+  width: 400px;
+}
+
+.box-item {
+  height: 50px;
+
+  margin: 30px 0;
+
+  width: 100%;
+}
+
+/* Elementos ímpares */
+.box-item:nth-child(odd) {
+  background-color: #00FF00;
+}
+
+/* Elementos pares */
+.box-item:nth-child(even) {
+  background-color: #FFF000;
+}
+
+.box-item:first-child {
+  background-color: #FF0000;
+}
+
+.box-item:last-child {
+  background-color: #0000FF;
+}

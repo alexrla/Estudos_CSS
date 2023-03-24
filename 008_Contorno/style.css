@@ -1,0 +1,27 @@
+div {
+  background-color: #FFF;
+
+  border: 5px solid #35BFFF;
+
+  height: 200px;
+
+  margin: 20px auto 40px;
+
+  outline-offset: 5px;
+
+  width: 200px;
+}
+
+#outline-1 {
+  outline-style: solid;
+}
+
+#outline-2 {
+  outline-style: dashed;
+}
+
+#outline-3 {
+  outline-offset: -15px;
+
+  outline-style: dotted;
+}

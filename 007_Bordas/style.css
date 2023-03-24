@@ -1,0 +1,33 @@
+div {
+  background-color: #333;
+
+  height: 200px;
+
+  margin: 0 auto 20px;
+
+  width: 200px;
+}
+
+#border-top {
+  border-top: 10px solid red;
+}
+
+#border-bottom {
+  border-bottom: 10px dotted green;
+}
+
+#border-left {
+  border-left: 10px dashed blue;
+}
+
+#border-right {
+  border-right: 10px double yellow;
+}
+
+#border {
+  border-color: red green blue yellow;
+
+  border-style: groove ridge inset outset;
+
+  border-width: 20px 20px 20px 20px;
+}

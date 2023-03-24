@@ -1,0 +1,27 @@
+.container {
+  border: 5px solid #333;
+
+  height: 300px;
+
+  overflow-y: scroll;
+
+  width: 180px;
+}
+
+.item {
+  border: 5px solid #333;
+
+  border-radius: 50%;
+
+  height: 100px;
+
+  margin: 15px;
+
+  width: 120px;
+}
+
+@media (max-width: 425px) {
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+}

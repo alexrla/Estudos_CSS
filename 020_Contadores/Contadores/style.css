@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+
+  margin: 0;
+
+  padding: 0;
+}
+
+body {
+  align-items: center;
+
+  background-color: #333;
+
+  color: #FFF;
+
+  counter-reset: language;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 15px;
+
+  height: 100vh;
+
+  justify-content: center;
+}
+
+h1::before {
+  content: "Linguagem " counter(language) ": ";
+
+  counter-increment: language;
+}

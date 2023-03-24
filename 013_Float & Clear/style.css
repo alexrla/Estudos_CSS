@@ -1,0 +1,81 @@
+.container-1,
+.container-2,
+.container-3,
+.container-4,
+.container-5,
+.container-6,
+.container-7 {
+  border: 5px solid #333;
+
+  margin-bottom: 180px;
+
+  padding: 20px;
+}
+
+img {
+  width: 250px;
+}
+
+.container-1 img,
+.container-3 img,
+.container-5 img,
+.container-7 img {
+  float: left;
+
+  margin-right: 20px;
+}
+
+.container-2 img,
+.container-4 img,
+.container-6 img {
+  float: right;
+
+  margin-left: 20px;
+}
+
+.container-1 p,
+.container-2 p,
+.container-3 p,
+.container-4 p {
+  text-align: justify;
+}
+
+.container-3 p {
+  clear: left;
+}
+
+.container-4 p {
+  clear: right;
+}
+
+.container-5 p {
+  clear: both;
+}
+
+.container-3 img,
+.container-4 img,
+.container-5 img {
+  margin-bottom: 15px;
+}
+
+.container-3,
+.container-4,
+.container-5 {
+  margin-bottom: 50px;
+}
+
+.container-6,
+.container-7 {
+  margin-bottom: 50px;
+}
+
+/*
+  - Container cobrindo toda a imagem (um "clear float");
+*/
+.container-6 {
+  overflow: auto;
+}
+
+.container-7 {
+  display: flow-root;
+}

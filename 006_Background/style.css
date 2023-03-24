@@ -1,0 +1,25 @@
+div {
+  height: 500px;
+
+  margin: 0 auto 20px;
+
+  width: 500px;
+}
+
+.bg-red {
+  background-color: #FF0000;
+}
+
+.bg-image {
+  background-image: url(./img/nique.jpg);
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+.bg-image-2 {
+  background: url(./img/nique.jpg) no-repeat center / cover;
+}
