@@ -1930,3 +1930,25 @@ p {
 
     - **`counter()`/`counters()`: adiciona o valor de um contador a um elemento (exibe os valores);**
 
+- **`:focus-within`**
+
+  - **Representa um elemento que recebeu foco, ou que possui filhos, que receberam foco;**
+
+- **`:has()`**
+
+  - **Seletor de pseudoclasse que ajuda a selecionar elementos, que contêm elementos (um elemento pai que contêm determinado filho), por exemplo:**
+  
+    ```css
+    /* Selecionando todas as div's que contêm parâgrafos */
+    div:has(p) {
+      ...
+    }
+    ```
+  
+  - **OBSs.:**
+  
+    - **Ele assume a especificidade do mais específico, passado como argumento;**
+    - **Se o navegador não oferecer suporte, todo os estilos aplicados, não terão efeito;**
+    - **Ele, ainda, não pode ser aninhado dentro dele mesmo (não podemos ter `:has()`, dentro de `:has()`);**
+    - **O seletor `:has()` ainda não é suportador pelo _Firefox_;**
+

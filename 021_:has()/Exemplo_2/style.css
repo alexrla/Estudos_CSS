@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+
+  margin: 0;
+
+  padding: 0;
+}
+
+:root {
+  --BGCOLOR: lightgray;
+
+  --COLOR: #000;
+}
+
+body {
+  align-items: center;
+
+  background-color: var(--BGCOLOR);
+
+  color: var(--COLOR);
+
+  display: flex;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  height: 100vh;
+
+  justify-content: center;
+}
+
+div {
+  display: flex;
+
+  flex-direction: column;
+}
+
+div label {
+  font-size: 1.5rem;
+
+  font-weight: bold;
+
+  margin-bottom: .5rem;
+
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  border-radius: 5px;
+
+  font-size: 18px;
+
+  height: 2rem;
+
+  padding: 8px;
+
+  width: 15rem;
+}
+
+label:has(~ #name:valid)::after {
+  color: #32CD32;
+
+  content: '✔';
+  
+  font-size: 1.5rem;
+
+  margin-left: 15px;
+} 
+
+label:has(~ #name:invalid)::after {
+  color: #FF0000;
+
+  content: '❌';
+
+  font-size: 1.5rem;
+
+  margin-left: 15px;
+}

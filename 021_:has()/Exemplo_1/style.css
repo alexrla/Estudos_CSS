@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+
+  margin: 0;
+
+  padding: 0;
+}
+
+:root {
+  --BGCOLOR: lightgray;
+
+  --COLOR: #000;
+}
+
+body {
+  align-items: center;
+
+  background-color: var(--BGCOLOR);
+
+  color: var(--COLOR);
+
+  display: flex;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  height: 100vh;
+
+  justify-content: center;
+}
+
+div {
+  align-items: center;
+
+  display: flex;
+}
+
+div label {
+  font-size: 2rem;
+
+  font-weight: bold;
+
+  margin-right: 10px;
+}
+
+input[type="checkbox"] {
+  height: 2rem;
+
+  width: 2rem;
+}
+
+:has(#dark-mode:checked) {
+  background-color: var(--COLOR);
+
+  color: var(--BGCOLOR);
+}
