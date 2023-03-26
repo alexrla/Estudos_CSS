@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  
+  margin: 0;
+
+  padding: 0;
+}
+
+body {
+  align-items: center;
+
+  background-color: #333;
+
+  display: flex;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  height: 100vh;
+
+  justify-content: center;
+}
+
+div {
+  align-items: center;
+
+  display: flex;
+}
+
+input {
+  height: 50px;
+
+  margin-right: 8px;
+
+  width: 50px;
+}
+
+label {
+  background: #F00;
+
+  color: #FFF;
+
+  cursor: pointer;
+
+  font-size: 22px;
+
+  font-weight: bold;
+
+  padding: 12px;
+}
+
+#in:checked + label {
+  background-color: #32CD32;
+}
